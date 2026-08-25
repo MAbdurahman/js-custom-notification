@@ -1,11 +1,20 @@
 
 'use strict';
 
-document.addEventListener('DOMContentLoaded', function () {
-   console.log('DOM fully loaded and parsed');
+window.addEventListener("load", () => {
+   const preloader = document.querySelector("#preloader");
 
+   if (!preloader) {
+      return;
+   }
 
+   preloader.classList.add("fade-out");
+
+   preloader.addEventListener("transitionend", () => {
+      preloader.remove();
+   }, { once: true });
 });
+
 
 document.addEventListener('DOMContentLoaded', () => {
    const toastContainer = document.querySelector('.toast-container');
