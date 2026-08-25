@@ -54,8 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
       icon.classList.add('fa-solid', icons[type]);
       icon.setAttribute('aria-hidden', 'true');
 
+      let vowel = type.charAt(0) === 'e' || type.charAt(0) === 'i' ? 'an ' : 'a ';
       const message = document.createTextNode(
-         ` This is a ${type} notification.`
+         ` This is ${vowel} ${type} notification.`
       );
 
       toast.append(icon, message);

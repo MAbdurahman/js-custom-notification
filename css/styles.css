@@ -678,7 +678,7 @@ button[class^="btn"]:hover {
    margin: 16px 0;
    padding: 16px;
    font-weight: 500;
-   background-color: var(--color-neutral-000);
+   background-color: var(--color-augmented-000);
    border-top-right-radius: var(--br-border-radius-400);
    border-bottom-right-radius: var(--br-border-radius-400);
    box-shadow: var(--bs-box-shadow-bottom-right-500);
