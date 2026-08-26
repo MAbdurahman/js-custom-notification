@@ -12,6 +12,8 @@
 - [x] Normalize.css
 - [x] Google Fonts
 - [x] Font Awesome Icons
+- [x] Mobile Friendly
 
 
-<img width="800" height="376" alt="Image" src="https://github.com/user-attachments/assets/9c77f032-8adc-4e43-91d4-0636bcb10209" />
+
+<img width="800" height="376" alt="Image" src="https://github.com/user-attachments/assets/c741e826-de41-4073-b565-c0507dac82c9" />
