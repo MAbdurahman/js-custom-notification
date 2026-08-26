@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
          setTimeout(() => {
             toast.remove();
          }, 1500);
-      }, 5050);
+      }, 5000);
 
       // Prevent unused-variable warnings if you later add cancellation logic
       toast.dataset.timerId = exitTimer;

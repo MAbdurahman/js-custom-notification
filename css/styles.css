@@ -798,7 +798,7 @@ button[class^="btn"].inform:active{
    width: 100%;
    height: 5px;
    background-color: var(--color-semantic-success-400);
-   animation: progress-left 5s linear forwards;
+   animation: progress-left 4s linear forwards;
    animation-delay: 1s;
 }
 
@@ -810,7 +810,7 @@ button[class^="btn"].inform:active{
    width: 100%;
    height: 5px;
    background-color: var(--color-semantic-alert-400);
-   animation: progress-left 5s linear forwards;
+   animation: progress-left 4s linear forwards;
    animation-delay: 1s;
 }
 
@@ -822,7 +822,7 @@ button[class^="btn"].inform:active{
    width: 100%;
    height: 5px;
    background-color: var(--color-semantic-warn-400);
-   animation: progress-left 5s linear forwards;
+   animation: progress-left 4s linear forwards;
    animation-delay: 1s;
 }
 
@@ -834,7 +834,7 @@ button[class^="btn"].inform:active{
    width: 100%;
    height: 5px;
    background-color: var(--color-semantic-inform-400);
-   animation: progress-left 3s linear forwards;
+   animation: progress-left 4s linear forwards;
    animation-delay: 1s;
 }
 
