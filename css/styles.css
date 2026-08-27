@@ -578,21 +578,21 @@ a:hover {
    justify-content: center;
    align-items: center;
    opacity: 1;
-   visibility: visible;
-   transition: opacity 0.5s var(--tf-ease), visibility 0.5s var(--tf-ease);
-
 }
 
 .preloader.fade-out {
-   opacity: 0;
-   visibility: hidden;
+   animation-name: fade-out;
+   animation-duration: 5s;
+   animation-iteration-count: 1;
+   animation-timing-function: var(--tf-ease-in);
+   animation-fill-mode: forwards;
 }
 
 .preloader-gif {
    width: 33%;
    align-self: center;
-
 }
+
 /* Extra Small Devices (Landscape Phones & Portrait Tablets) */
 @media (max-width: 767px) {
    .preloader-gif {
@@ -842,6 +842,15 @@ button[class^="btn"].inform:active{
 /*===============================================================
           keyframes
 ==================================================================*/
+@keyframes fade-out {
+   from {
+      opacity: 1;
+   }
+   to {
+      opacity: 0;
+   }
+}
+
 @keyframes progress-left {
    100% {
       width: 0;

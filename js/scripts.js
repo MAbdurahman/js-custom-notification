@@ -1,18 +1,17 @@
-
 'use strict';
 
-window.addEventListener("load", () => {
-   const preloader = document.querySelector("#preloader");
+window.addEventListener('load', () => {
+   const preloader = document.querySelector('#preloader');
 
    if (!preloader) {
       return;
    }
 
-   preloader.classList.add("fade-out");
+   preloader.classList.add('fade-out');
 
-   preloader.addEventListener("transitionend", () => {
-      preloader.remove();
-   }, { once: true });
+   preloader.addEventListener('animationend', () => {
+      preloader.style.display = 'none';
+   });
 });
 
 
